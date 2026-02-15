@@ -148,7 +148,7 @@ Thumbs.db
 
 ### Task Group 6: Completion Output
 
-- [ ] 6.1 After all files are created, display completion summary:
+- [x] 6.1 After all files are created, display completion summary:
 ```
 ✅ Your workspace is ready!
 
@@ -173,9 +173,9 @@ Thumbs.db
 
    The more you use it, the smarter it gets. See you in there.
 ```
-- [ ] 6.2 The `[AI Tool Name]` in the completion output should match the selected tool from prompt 3
-- [ ] 6.3 If AI tool is "Claude Desktop," add: "Tip: In Claude Desktop, click 'Add to project' and select your pming-workspace folder."
-- [ ] 6.4 If AI tool is "Cursor," add: "Tip: Open the pming-workspace folder in Cursor — it'll pick up .cursorrules automatically."
+- [x] 6.2 The `[AI Tool Name]` in the completion output should match the selected tool from prompt 3
+- [x] 6.3 If AI tool is "Claude Desktop," add: "Tip: In Claude Desktop, click 'Add to project' and select your pming-workspace folder."
+- [x] 6.4 If AI tool is "Cursor," add: "Tip: Open the pming-workspace folder in Cursor — it'll pick up .cursorrules automatically."
 
 ### Task Group 7: Error Handling & Edge Cases
 
