@@ -96,8 +96,8 @@ Let's set up your workspace. This takes about 5 minutes.
 
 ### Task Group 4: Scaffold Generation
 
-- [ ] 4.1 Create workspace directory. Default: `./pming-workspace/` in current directory. If it already exists, prompt: "A pming workspace already exists here. Overwrite? (y/N)"
-- [ ] 4.2 Create directory structure inside workspace:
+- [x] 4.1 Create workspace directory. Default: `./pming-workspace/` in current directory. If it already exists, prompt: "A pming workspace already exists here. Overwrite? (y/N)"
+- [x] 4.2 Create directory structure inside workspace:
 ```
 pming-workspace/
 ├── context/
@@ -114,10 +114,10 @@ pming-workspace/
 ├── templates/
 └── references/
 ```
-- [ ] 4.3 Create `.gitkeep` files in empty directories: `context/stakeholders/`, `context/decisions/`, `memory/`
-- [ ] 4.4 Copy all skill SKILL.md files from `scaffold/skills/` to `workspace/skills/`
-- [ ] 4.5 Copy all template files from `scaffold/templates/` to `workspace/templates/`
-- [ ] 4.6 Copy `scaffold/references/pm-codex.md` to `workspace/references/pm-codex.md`
+- [x] 4.3 Create `.gitkeep` files in empty directories: `context/stakeholders/`, `context/decisions/`, `memory/`
+- [x] 4.4 Copy all skill SKILL.md files from `scaffold/skills/` to `workspace/skills/`
+- [x] 4.5 Copy all template files from `scaffold/templates/` to `workspace/templates/`
+- [x] 4.6 Copy `scaffold/references/pm-codex.md` to `workspace/references/pm-codex.md`
 
 ### Task Group 5: Dynamic File Generation
 
