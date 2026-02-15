@@ -76,23 +76,23 @@ pming/
 
 ### Task Group 3: Interactive Prompts (Init Flow)
 
-- [ ] 3.1 Display welcome banner on `pming init`:
+- [x] 3.1 Display welcome banner on `pming init`:
 ```
 🧠 pming — your AI PM workspace
 
 Let's set up your workspace. This takes about 5 minutes.
 ```
-- [ ] 3.2 Prompt 1 — Name: "What's your name?" (text input, required)
-- [ ] 3.3 Prompt 2 — Role: "What's your role? (e.g., 'Senior PM at Acme Corp')" (text input, required)
-- [ ] 3.4 Prompt 3 — AI Tool: "What AI tool do you primarily use?" (select from list):
+- [x] 3.2 Prompt 1 — Name: "What's your name?" (text input, required)
+- [x] 3.3 Prompt 2 — Role: "What's your role? (e.g., 'Senior PM at Acme Corp')" (text input, required)
+- [x] 3.4 Prompt 3 — AI Tool: "What AI tool do you primarily use?" (select from list):
   - Claude Desktop / Claude.ai
   - Cursor
   - Claude Code
   - Other (manual setup)
-- [ ] 3.5 Prompt 4 — Product: "Tell me about your product in a few sentences. (What does it do? Who's it for? What stage is it at?)" (multiline text input, required)
-- [ ] 3.6 Prompt 5 — Current Project: "One specific thing you're working on right now. A feature, a project, an initiative. Just one." (multiline text input, required)
-- [ ] 3.7 All prompts handle Ctrl+C gracefully with a clean exit message: "Setup cancelled. Run `pming init` when you're ready."
-- [ ] 3.8 Collect all responses into a context object: `{ name, role, aiTool, product, project }`
+- [x] 3.5 Prompt 4 — Product: "Tell me about your product in a few sentences. (What does it do? Who's it for? What stage is it at?)" (multiline text input, required)
+- [x] 3.6 Prompt 5 — Current Project: "One specific thing you're working on right now. A feature, a project, an initiative. Just one." (multiline text input, required)
+- [x] 3.7 All prompts handle Ctrl+C gracefully with a clean exit message: "Setup cancelled. Run `pming init` when you're ready."
+- [x] 3.8 Collect all responses into a context object: `{ name, role, aiTool, product, project }`
 
 ### Task Group 4: Scaffold Generation
 
