@@ -62,17 +62,17 @@ pming/
 - [x] 1.6 Copy all existing skill files from the repo's `skills/` directory into `scaffold/skills/`
 - [x] 1.7 Copy all existing template files from the repo's `templates/` directory into `scaffold/templates/`
 - [x] 1.8 Copy `references/pm-codex.md` into `scaffold/references/`
-- [ ] 1.9 Copy `CLAUDE.md` into `scaffold/` as the base template (with placeholder tokens for variable injection)
+- [x] 1.9 Copy `CLAUDE.md` into `scaffold/` as the base template (with placeholder tokens for variable injection)
 
 ### Task Group 2: CLI Entry Point & Argument Parsing
 
 - [x] 2.1 `src/cli.js` parses command-line arguments. Supported commands: `init`, `update`, `--help`, `--version`
-- [ ] 2.2 `pming` with no arguments displays help text showing available commands
-- [ ] 2.3 `pming --version` prints the version from package.json
-- [ ] 2.4 `pming --help` displays usage information with descriptions of each command
-- [ ] 2.5 `pming init` invokes the init flow from `src/init.js`
-- [ ] 2.6 `pming update` prints "Coming soon — check https://github.com/srdrkr/pming for updates" (placeholder for future skill updates)
-- [ ] 2.7 Unknown commands display an error message and the help text
+- [x] 2.2 `pming` with no arguments displays help text showing available commands
+- [x] 2.3 `pming --version` prints the version from package.json
+- [x] 2.4 `pming --help` displays usage information with descriptions of each command
+- [x] 2.5 `pming init` invokes the init flow from `src/init.js`
+- [x] 2.6 `pming update` prints "Coming soon — check https://github.com/srdrkr/pming for updates" (placeholder for future skill updates)
+- [x] 2.7 Unknown commands display an error message and the help text
 
 ### Task Group 3: Interactive Prompts (Init Flow)
 

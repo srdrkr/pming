@@ -57,9 +57,11 @@ async function run(argv) {
     case 'version':
       showVersion();
       break;
-    case 'init':
-      // TODO: wire up init flow (task 2.5)
+    case 'init': {
+      const { init } = await import('./init.js');
+      await init();
       break;
+    }
     case 'update':
       console.log('Coming soon — check https://github.com/srdrkr/pming for updates');
       break;
