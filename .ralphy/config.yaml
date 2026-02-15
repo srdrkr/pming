@@ -1,0 +1,34 @@
+# Ralphy Configuration
+# https://github.com/michaelshimeles/ralphy
+
+project:
+  name: "pming"
+  language: "JavaScript"
+  framework: "Node.js CLI"
+  description: "AI-powered PM workspace scaffold — CLI tool that creates structured context workspaces for product managers"
+
+commands:
+  test: "node --test tests/"
+  lint: ""
+  build: ""
+
+rules:
+  - "Use ESM modules (import/export). package.json has type: module"
+  - "Node.js 18+ minimum. Use built-in APIs where possible (fs/promises, path, node:test)"
+  - "Dependencies are: enquirer, chalk, fs-extra, slugify. Do not add additional dependencies without strong justification"
+  - "All scaffold content files (skills, templates, CLAUDE.md, pm-codex.md) already exist in the repo. Copy them into scaffold/ directory — do NOT rewrite or modify their content"
+  - "The scaffold/ directory contains canonical versions of files that get copied into user workspaces. These are the product — treat them as read-only source material"
+  - "Variable injection in CLAUDE.md uses simple string replacement: [Name] and [Role] tokens. No templating engine needed"
+  - "Keep CLI output clean and minimal. Use chalk for color but don't over-style. Match the tone in the PRD completion output examples"
+  - "Handle errors gracefully — print clear messages, don't crash with stack traces for expected failures"
+  - "Tests use Node.js built-in test runner (node:test). No mocha, jest, or other test frameworks"
+
+boundaries:
+  never_touch:
+    - "skills/**"
+    - "templates/**"
+    - "references/**"
+    - "CLAUDE.md"
+    - "docs/**"
+    - "PRD.md"
+    - ".ralphy/**"
