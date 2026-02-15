@@ -186,7 +186,7 @@ Thumbs.db
 
 ### Task Group 8: README
 
-- [ ] 8.1 Create `README.md` in the package root (not the workspace) with:
+- [x] 8.1 Create `README.md` in the package root (not the workspace) with:
   - Project description: "AI-powered PM workspace scaffold"
   - Install/usage: `npx pming init`
   - What it creates (directory structure overview)
