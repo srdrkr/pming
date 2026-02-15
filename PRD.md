@@ -32,7 +32,7 @@ A Node.js CLI tool distributed via npm (`npx pming init`) that:
 - [x] 1.2 Add `package.json` with fields: name, version (0.1.0), description ("AI-powered PM workspace scaffold"), bin, keywords, license (MIT), engines (node >=18)
 - [x] 1.3 Add shebang `#!/usr/bin/env node` to `src/cli.js`
 - [x] 1.4 Install dependencies: `enquirer` (interactive prompts), `chalk` (colored output), `fs-extra` (file operations), `slugify` (project name slugging)
-- [ ] 1.5 Create directory structure:
+- [x] 1.5 Create directory structure:
 ```
 pming/
 ├── src/
@@ -59,8 +59,8 @@ pming/
 ├── README.md
 └── .gitignore
 ```
-- [ ] 1.6 Copy all existing skill files from the repo's `skills/` directory into `scaffold/skills/`
-- [ ] 1.7 Copy all existing template files from the repo's `templates/` directory into `scaffold/templates/`
+- [x] 1.6 Copy all existing skill files from the repo's `skills/` directory into `scaffold/skills/`
+- [x] 1.7 Copy all existing template files from the repo's `templates/` directory into `scaffold/templates/`
 - [ ] 1.8 Copy `references/pm-codex.md` into `scaffold/references/`
 - [ ] 1.9 Copy `CLAUDE.md` into `scaffold/` as the base template (with placeholder tokens for variable injection)
 
