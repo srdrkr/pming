@@ -196,15 +196,15 @@ Thumbs.db
 
 ### Task Group 9: Testing
 
-- [ ] 9.1 Create `tests/` directory with test file `tests/scaffold.test.js`
-- [ ] 9.2 Test: `pming init` creates all expected directories
-- [ ] 9.3 Test: `pming init` creates all expected files (CLAUDE.md, USER.md, product.md, project file, all skills, all templates, pm-codex.md, .gitignore)
-- [ ] 9.4 Test: Variable injection replaces `[Name]` and `[Role]` in generated CLAUDE.md
-- [ ] 9.5 Test: Project slug generation produces valid filesystem-safe slugs
-- [ ] 9.6 Test: Overwrite prompt appears when workspace directory already exists
-- [ ] 9.7 Test: `--version` outputs the correct version
-- [ ] 9.8 Test: `--help` outputs usage information
-- [ ] 9.9 Use Node.js built-in test runner (`node:test`) — no additional test framework dependency
+- [x] 9.1 Create `tests/` directory with test file `tests/scaffold.test.js`
+- [x] 9.2 Test: `pming init` creates all expected directories
+- [x] 9.3 Test: `pming init` creates all expected files (CLAUDE.md, USER.md, product.md, project file, all skills, all templates, pm-codex.md, .gitignore)
+- [x] 9.4 Test: Variable injection replaces `[Name]` and `[Role]` in generated CLAUDE.md
+- [x] 9.5 Test: Project slug generation produces valid filesystem-safe slugs
+- [x] 9.6 Test: Overwrite prompt appears when workspace directory already exists
+- [x] 9.7 Test: `--version` outputs the correct version
+- [x] 9.8 Test: `--help` outputs usage information
+- [x] 9.9 Use Node.js built-in test runner (`node:test`) — no additional test framework dependency
 
 ---
 
