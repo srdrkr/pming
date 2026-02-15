@@ -15,6 +15,9 @@
     "cli"
   ],
   "license": "MIT",
+  "scripts": {
+    "test": "node --test tests/"
+  },
   "engines": {
     "node": ">=18"
   },
