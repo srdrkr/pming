@@ -28,10 +28,10 @@ A Node.js CLI tool distributed via npm (`npx pming init`) that:
 
 ### Task Group 1: Project Setup
 
-- [ ] 1.1 Initialize npm package with name `pming`, set `bin` entry to `pming` pointing to `src/cli.js`
-- [ ] 1.2 Add `package.json` with fields: name, version (0.1.0), description ("AI-powered PM workspace scaffold"), bin, keywords, license (MIT), engines (node >=18)
-- [ ] 1.3 Add shebang `#!/usr/bin/env node` to `src/cli.js`
-- [ ] 1.4 Install dependencies: `enquirer` (interactive prompts), `chalk` (colored output), `fs-extra` (file operations), `slugify` (project name slugging)
+- [x] 1.1 Initialize npm package with name `pming`, set `bin` entry to `pming` pointing to `src/cli.js`
+- [x] 1.2 Add `package.json` with fields: name, version (0.1.0), description ("AI-powered PM workspace scaffold"), bin, keywords, license (MIT), engines (node >=18)
+- [x] 1.3 Add shebang `#!/usr/bin/env node` to `src/cli.js`
+- [x] 1.4 Install dependencies: `enquirer` (interactive prompts), `chalk` (colored output), `fs-extra` (file operations), `slugify` (project name slugging)
 - [ ] 1.5 Create directory structure:
 ```
 pming/
