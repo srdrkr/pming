@@ -121,22 +121,22 @@ pming-workspace/
 
 ### Task Group 5: Dynamic File Generation
 
-- [ ] 5.1 Generate `USER.md` from template, injecting `name` and `role` from prompts. Place in workspace root.
-- [ ] 5.2 Generate `context/product.md` from template, injecting the product description from prompt 4. Use the first sentence or product name as the heading.
-- [ ] 5.3 Generate `context/projects/[slug].md` from template. Slug derived from project description (first ~5 words, lowercased, hyphenated via `slugify`). Inject the project description from prompt 5.
-- [ ] 5.4 Generate the agent config file based on AI tool selection:
+- [x] 5.1 Generate `USER.md` from template, injecting `name` and `role` from prompts. Place in workspace root.
+- [x] 5.2 Generate `context/product.md` from template, injecting the product description from prompt 4. Use the first sentence or product name as the heading.
+- [x] 5.3 Generate `context/projects/[slug].md` from template. Slug derived from project description (first ~5 words, lowercased, hyphenated via `slugify`). Inject the project description from prompt 5.
+- [x] 5.4 Generate the agent config file based on AI tool selection:
   - Claude Desktop / Claude.ai → `CLAUDE.md`
   - Cursor → `.cursorrules` (same content as CLAUDE.md)
   - Claude Code → `CLAUDE.md`
   - Other → `AGENTS.md` (same content as CLAUDE.md)
-- [ ] 5.5 Agent config file generation: read `scaffold/CLAUDE.md`, replace `[Name]` with PM's name and `[Role]` with PM's role. Write to appropriate filename per 5.4.
-- [ ] 5.6 Generate `memory/long-term.md` with header only:
+- [x] 5.5 Agent config file generation: read `scaffold/CLAUDE.md`, replace `[Name]` with PM's name and `[Role]` with PM's role. Write to appropriate filename per 5.4.
+- [x] 5.6 Generate `memory/long-term.md` with header only:
 ```markdown
 # Long-Term Memory
 
 *Curated insights that compound across sessions. Updated by your AI assistant as it learns.*
 ```
-- [ ] 5.7 Generate `.gitignore`:
+- [x] 5.7 Generate `.gitignore`:
 ```
 # Private session notes (don't commit to shared repos)
 memory/
