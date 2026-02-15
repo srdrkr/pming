@@ -61,12 +61,12 @@ pming/
 ```
 - [x] 1.6 Copy all existing skill files from the repo's `skills/` directory into `scaffold/skills/`
 - [x] 1.7 Copy all existing template files from the repo's `templates/` directory into `scaffold/templates/`
-- [ ] 1.8 Copy `references/pm-codex.md` into `scaffold/references/`
+- [x] 1.8 Copy `references/pm-codex.md` into `scaffold/references/`
 - [ ] 1.9 Copy `CLAUDE.md` into `scaffold/` as the base template (with placeholder tokens for variable injection)
 
 ### Task Group 2: CLI Entry Point & Argument Parsing
 
-- [ ] 2.1 `src/cli.js` parses command-line arguments. Supported commands: `init`, `update`, `--help`, `--version`
+- [x] 2.1 `src/cli.js` parses command-line arguments. Supported commands: `init`, `update`, `--help`, `--version`
 - [ ] 2.2 `pming` with no arguments displays help text showing available commands
 - [ ] 2.3 `pming --version` prints the version from package.json
 - [ ] 2.4 `pming --help` displays usage information with descriptions of each command
