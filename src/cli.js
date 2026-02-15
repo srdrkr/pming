@@ -4,6 +4,12 @@ import { createRequire } from 'node:module';
 import { fileURLToPath } from 'node:url';
 import { resolve } from 'node:path';
 
+const nodeMajor = parseInt(process.versions.node.split('.')[0], 10);
+if (nodeMajor < 18) {
+  console.error(`pming requires Node.js 18 or later. You're running ${process.versions.node}.`);
+  process.exit(1);
+}
+
 const require = createRequire(import.meta.url);
 const { version } = require('../package.json');
 

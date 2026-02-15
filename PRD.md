@@ -179,10 +179,10 @@ Thumbs.db
 
 ### Task Group 7: Error Handling & Edge Cases
 
-- [ ] 7.1 If Node.js version is below 18, print error and exit: "pming requires Node.js 18 or later. You're running [version]."
-- [ ] 7.2 If `fs.mkdir` fails due to permissions, print clear error: "Couldn't create workspace directory. Check your permissions for [path]."
-- [ ] 7.3 If any file copy fails, print which file failed and continue with remaining files. Don't abort entire scaffold on single file failure.
-- [ ] 7.4 If the user's terminal doesn't support interactive prompts (non-TTY), print: "pming init requires an interactive terminal. Run it directly (not piped)."
+- [x] 7.1 If Node.js version is below 18, print error and exit: "pming requires Node.js 18 or later. You're running [version]."
+- [x] 7.2 If `fs.mkdir` fails due to permissions, print clear error: "Couldn't create workspace directory. Check your permissions for [path]."
+- [x] 7.3 If any file copy fails, print which file failed and continue with remaining files. Don't abort entire scaffold on single file failure.
+- [x] 7.4 If the user's terminal doesn't support interactive prompts (non-TTY), print: "pming init requires an interactive terminal. Run it directly (not piped)."
 
 ### Task Group 8: README
 
