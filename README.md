@@ -3,7 +3,7 @@
 **Your PM brain, scaffolded.** Go from zero to a context-rich AI workspace in under 5 minutes.
 
 ```bash
-npx pm-init init
+npx pm-brain init
 ```
 
 ---
@@ -58,7 +58,7 @@ Node.js 18+
 
 ## How It Works
 
-1. **`npx pm-init init`** — answer 5 questions about you and your product
+1. **`npx pm-brain init`** — answer 5 questions about you and your product
 2. **Open in your AI tool** — it reads the config and context files automatically
 3. **Work normally** — decisions, stakeholders, and insights accumulate across sessions
 4. **Context compounds** — each session builds on the last
