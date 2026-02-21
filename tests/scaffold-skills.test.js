@@ -10,6 +10,7 @@ const skillsDir = join(root, 'skills');
 const scaffoldSkillsDir = join(root, 'scaffold', 'skills');
 
 const expectedSkills = [
+  '11-star-experience',
   'decision-log',
   'meeting-prep',
   'prd-draft',

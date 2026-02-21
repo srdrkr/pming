@@ -75,6 +75,7 @@ You have access to specialized PM skills in the `skills/` directory. Each skill 
 | **Decision Log** | `skills/decision-log/` | "log this decision", "what did we decide about...", or detected decisional language |
 | **PRD Draft** | `skills/prd-draft/` | "help me write a PRD", "draft requirements for...", feature scoping |
 | **Prioritization & Decision Support** | `skills/prioritization/` | "help me prioritize", "should we do X or Y", "I need to make a call on...", weighing options |
+| **11-Star Experience** | `skills/11-star-experience/` | "help me define our product vision", "let's do the 11-star exercise", "where are we on the ambition ladder" |
 
 ### Skill Invocation Rules
 

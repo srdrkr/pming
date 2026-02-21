@@ -7,6 +7,7 @@ const AI_TOOL_CONFIG_FILENAMES = {
   'claude-desktop': 'CLAUDE.md',
   cursor: '.cursorrules',
   'claude-code': 'CLAUDE.md',
+  cowork: 'CLAUDE.md',
   other: 'AGENTS.md',
 };
 

@@ -37,6 +37,7 @@ export async function collectAnswers() {
         { name: 'claude-desktop', message: 'Claude Desktop / Claude.ai' },
         { name: 'cursor', message: 'Cursor' },
         { name: 'claude-code', message: 'Claude Code' },
+        { name: 'cowork', message: 'Claude Cowork' },
         { name: 'other', message: 'Other (manual setup)' },
       ],
     });

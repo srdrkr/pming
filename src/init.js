@@ -7,6 +7,7 @@ const AI_TOOL_DISPLAY_NAMES = {
   'claude-desktop': 'Claude Desktop',
   cursor: 'Cursor',
   'claude-code': 'Claude Code',
+  cowork: 'Claude Cowork',
   other: 'your AI tool',
 };
 
@@ -42,7 +43,7 @@ export async function init() {
   console.log('   USER.md            \u2014 Your profile');
   console.log('   context/product.md \u2014 Your product context');
   console.log('   context/projects/  \u2014 Your current project');
-  console.log('   skills/            \u2014 5 PM skills ready to use');
+  console.log('   skills/            \u2014 6 PM skills ready to use');
   console.log('   references/        \u2014 PM Codex (your principles playbook)');
   console.log('   memory/            \u2014 Where context compounds over time');
   console.log('   templates/         \u2014 Starting points for new files');
@@ -65,6 +66,11 @@ export async function init() {
   } else if (context.aiTool === 'cursor') {
     console.log(
       "   Tip: Open the pming-workspace folder in Cursor \u2014 it'll pick up .cursorrules automatically.",
+    );
+    console.log();
+  } else if (context.aiTool === 'cowork') {
+    console.log(
+      '   Tip: Open the pming-workspace folder in Cowork and start a conversation.',
     );
     console.log();
   }

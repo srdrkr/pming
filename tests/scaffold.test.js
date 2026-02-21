@@ -26,7 +26,7 @@ describe('createWorkspace', () => {
     if (tmpDir) await rm(tmpDir, { recursive: true, force: true });
   });
 
-  test('creates all 13 expected directories', async () => {
+  test('creates all 14 expected directories', async () => {
     tmpDir = await mkdtemp(join(tmpdir(), 'pming-test-'));
     const targetDir = join(tmpDir, 'workspace');
 
@@ -41,6 +41,7 @@ describe('createWorkspace', () => {
       'context/decisions',
       'memory',
       'skills',
+      'skills/11-star-experience',
       'skills/meeting-prep',
       'skills/decision-log',
       'skills/stakeholder-update',
@@ -82,6 +83,7 @@ describe('createWorkspace', () => {
       'USER.md',
       'context/product.md',
       `context/projects/${projectSlug}.md`,
+      'skills/11-star-experience/SKILL.md',
       'skills/meeting-prep/SKILL.md',
       'skills/decision-log/SKILL.md',
       'skills/stakeholder-update/SKILL.md',

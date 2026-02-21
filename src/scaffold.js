@@ -13,6 +13,7 @@ const DIRECTORIES = [
   'context/decisions',
   'memory',
   'skills',
+  'skills/11-star-experience',
   'skills/meeting-prep',
   'skills/decision-log',
   'skills/stakeholder-update',

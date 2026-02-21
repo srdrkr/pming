@@ -25,7 +25,7 @@ describe('scaffold/ directory structure', () => {
     await access(join(root, 'scaffold', 'skills'), constants.F_OK);
   });
 
-  for (const skill of ['meeting-prep', 'decision-log', 'stakeholder-update', 'prd-draft', 'prioritization']) {
+  for (const skill of ['11-star-experience', 'meeting-prep', 'decision-log', 'stakeholder-update', 'prd-draft', 'prioritization']) {
     it(`scaffold/skills/${skill}/ directory exists`, async () => {
       await access(join(root, 'scaffold', 'skills', skill), constants.F_OK);
     });

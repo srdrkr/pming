@@ -24,7 +24,8 @@ pming-workspace/
 ├── memory/
 │   ├── long-term.md       # Insights that compound across sessions
 │   └── YYYY-MM-DD.md      # Daily session notes (auto-created)
-├── skills/                # 5 PM workflow skills
+├── skills/                # 6 PM workflow skills
+│   ├── 11-star-experience/
 │   ├── meeting-prep/
 │   ├── decision-log/
 │   ├── stakeholder-update/
@@ -39,6 +40,7 @@ pming-workspace/
 - **Claude Desktop / Claude.ai** — generates `CLAUDE.md`
 - **Cursor** — generates `.cursorrules`
 - **Claude Code** — generates `CLAUDE.md`
+- **Claude Cowork** — generates `CLAUDE.md`
 - **Other** — generates `AGENTS.md` (same content, generic filename)
 
 ## Requirements
