@@ -21,6 +21,12 @@
     "README.md",
     "LICENSE"
   ],
+  "author": "Product Shadow (https://productshadow.app)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srdrkr/pming.git"
+  },
+  "homepage": "https://github.com/srdrkr/pming",
   "license": "MIT",
   "scripts": {
     "test": "node --test tests/"
