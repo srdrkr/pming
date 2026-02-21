@@ -1,5 +1,5 @@
 {
-  "name": "pming-cli",
+  "name": "pm-init",
   "version": "0.1.0",
   "description": "AI-powered PM workspace scaffold",
   "type": "module",
