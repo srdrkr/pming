@@ -1,37 +1,38 @@
 # [Decision Title]
 
 **Date:** YYYY-MM-DD
-**Status:** Active
-**Participants:** [Who was involved in or affected by this decision]
+**Status:** [Active / Superseded / Reversed]
+**Decision owner:** [Single accountable person]
+**Participants:** [Who provided input or is directly affected]
 
 ## Decision
 
-[One to three sentences. What was decided, stated clearly enough that someone reading this in 3 months understands it without context.]
+[1-3 sentences. State the call in plain language so someone can act on it without extra context.]
 
-## Reasoning
+## Why This Decision
 
-[Why this and not something else. The logic, not just the conclusion. This is the most valuable section — it's what prevents relitigating.]
+- Context: [What changed or forced this decision]
+- Rationale: [Core logic behind the chosen path]
+- Confidence: [High / Medium / Low + why]
 
 ## Alternatives Considered
 
-- **[Option B]:** [Why not — one line]
-- **[Option C]:** [Why not — one line]
+- **[Option A]:** [Why not]
+- **[Option B]:** [Why not]
 
-*(Skip this section if there were no real alternatives discussed.)*
+## Consequences
 
-## Implications
-
-- [What this decision affects, enables, or constrains]
-- [Downstream consequences worth tracking]
-
-*(Skip this section if implications are obvious from the decision itself.)*
+- Immediate effect: [What changes now]
+- Downstream effect: [What this enables or constrains]
+- Review trigger: [What signal would make you revisit this]
 
 ## References
 
 - Related project: `context/projects/[project].md`
 - Related stakeholder: `context/stakeholders/[person].md`
+- Related PRD: `context/projects/[project]-prd.md` *(if applicable)*
 - Supersedes: `context/decisions/[prior-decision].md` *(if applicable)*
 
 ---
 
-*Captured by the Decision Log skill or cross-cutting decision capture behavior.*
+*If you only have 30 seconds, capture the decision + rationale first. Incomplete logs are still better than missing logs.*

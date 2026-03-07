@@ -3,22 +3,32 @@
 **Name:** [Name]
 **Role:** [Role]
 
-## Preferences
+## How You Like to Work
 
-*(This section grows as the agent learns how you work.)*
+- Communication style: [Example: "Short bullets, then details only if I ask"]
+- Decision style: [Example: "I like a clear recommendation plus tradeoffs"]
+- Planning horizon: [Example: "Think in quarters, execute in weeks"]
+- Pet peeves: [Example: "Fluffy language, vague next steps"]
 
-- Communication style: [Does the PM prefer bullets or prose? Short or detailed?]
-- Decision style: [Decisive? Collaborative? Data-driven? Instinct-driven?]
-- Pet peeves: [What frustrates them? Over-long docs? Vague recommendations?]
+## Team Snapshot
 
-## Team
+- Direct manager: [Name + what they care about]
+- Key partner(s): [Eng lead, design lead, etc.]
+- High-stakes stakeholders: [Who can block or accelerate your work]
 
-*(Populated as team members come up in conversation.)*
+## Operating Context
 
-## Working Context
+- Company stage: [Pre-PMF / Growth / Enterprise scale / Other]
+- Current mandate: [What you are explicitly accountable for this quarter]
+- Constraints: [Headcount, timeline, tech debt, org, legal, etc.]
+- Non-negotiables: [Things that must stay true]
 
-*(Captured from init and enriched over time — company stage, org dynamics, constraints.)*
+## Personal Defaults
+
+- What "good" looks like for you: [How you define quality in PM work]
+- Where you want pushback: [Where the assistant should challenge you harder]
+- Where you want speed: [Where "good enough" beats perfection]
 
 ---
 
-*This file is enriched automatically as the agent learns your preferences through usage. You can also edit it directly.*
+*This file is a working profile. Update directly anytime; your assistant also enriches it as patterns become clear.*

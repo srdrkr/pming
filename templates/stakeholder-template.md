@@ -1,25 +1,38 @@
 # [Name]
 
-**Role:** [Title, team, reporting relationship if known]
-**Relationship:** [How the PM interacts with this person — direct report, skip-level, peer, cross-functional, etc.]
+**Role:** [Title, team, reporting line]
+**Relationship to PM:** [Manager / peer / cross-functional / exec / partner]
+**Influence level:** [Low / Medium / High]
 **Last updated:** YYYY-MM-DD
 
-## What They Care About
+## What They Optimize For
 
-- [Their current priorities — what's on their mind, what they're measured on]
-- [Updated as new information surfaces from any interaction]
+- Primary scoreboard: [What this person is measured on]
+- Current top priority: [What they are pushing right now]
+- Risk sensitivity: [What failure they are trying to avoid]
 
-## Communication Style
+## Communication Preferences
 
-- [How they prefer to receive information — detail vs. summary, data vs. narrative]
-- [How they respond to bad news — need framing? prefer directness?]
-- [Meeting behavior — do they read pre-reads? interrupt? want to be asked for input?]
+- Preferred format: [Slack / email / doc / live conversation]
+- Preferred detail level: [Headline only / summary + key data / full detail]
+- Preferred escalation style: [Early warning / only with mitigation / etc.]
 
-## Context & History
+## Working Dynamics
 
-- [Key interactions, decisions made together, positions taken]
-- [Append new entries with dates — this section grows over time]
+- Trust status: [Strong / neutral / strained + why]
+- Known friction points: [Where alignment usually breaks]
+- What gets fast alignment: [Arguments, metrics, framing that work]
+
+## Timeline Notes
+
+- YYYY-MM-DD: [Specific signal, request, concern, or decision from this person]
+- YYYY-MM-DD: [Specific signal, request, concern, or decision from this person]
+
+## Open Threads
+
+- [Thread + owner + next checkpoint date]
+- [Thread + owner + next checkpoint date]
 
 ---
 
-*This file is maintained by cross-cutting behaviors. New information gets appended with dates as it surfaces from any interaction — meeting prep, status updates, casual conversation.*
+*Keep this specific. "Cares about growth" is weak; "will trade margin for QoQ logo growth" is useful.*
