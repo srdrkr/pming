@@ -1,5 +1,8 @@
 docs/
 tests/
+test/
 TODO.md
 .DS_Store
+.npmrc
+.github/
 *.test.js

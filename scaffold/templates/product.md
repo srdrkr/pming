@@ -1,32 +1,46 @@
 # [Product Name]
 
-## What It Is
+## Product In One Paragraph
 
-[Product description from init. What does it do, who's it for, what stage is it at.]
+[What it does, for whom, and why it matters now. Write this so a new teammate understands the product in under 30 seconds.]
 
-## Key Metrics
+## ICP and Problem
 
-*(Populated as the PM shares data in conversation.)*
+- Primary user/customer: [Who specifically]
+- Core pain: [What hurts today]
+- Current workaround: [What they do without your product]
+- Why now: [Trigger that makes this urgent]
 
-- [Primary metric and current value]
-- [Secondary metrics]
+## Current State
 
-## Strategic Priorities
+- Product stage: [0→1 / PMF / Growth / Scale]
+- Adoption signal: [Top usage metric + current value]
+- Outcome signal: [Business/user outcome metric + current value]
+- Quality signal: [Reliability, NPS, CSAT, support burden, etc.]
 
-*(Updated as prioritization discussions surface what matters most.)*
+## Strategic Priorities (Ranked)
 
-1. [Current #1 priority and why]
-2. [Current #2 priority]
-3. [Current #3 priority]
+1. [Priority #1 + why this is #1]
+2. [Priority #2 + why]
+3. [Priority #3 + why]
 
-## Competitive Context
+## Strategic Constraints
 
-*(Captured when competitors come up in conversation.)*
+- Constraint: [What limits execution]
+- Constraint: [What limits execution]
+- Constraint: [What limits execution]
 
-## Constraints
+## Competitive Reality
 
-*(Technical, organizational, or market constraints that affect product decisions.)*
+- Main alternatives customers consider: [Competitor / in-house / do nothing]
+- Where we clearly win: [Specific advantage]
+- Where we are exposed: [Specific weakness]
+
+## Current Product Bets
+
+- Bet: [Project/initiative] -> [Expected outcome] -> [How you will measure it]
+- Bet: [Project/initiative] -> [Expected outcome] -> [How you will measure it]
 
 ---
 
-*This file is the product's home base. Every skill reads it for context. Keep it current — when strategic priorities shift, update this file.*
+*This file is the system's source of product truth. Keep priorities and metrics current so every skill stays grounded.*

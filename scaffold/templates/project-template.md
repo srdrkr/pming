@@ -1,35 +1,57 @@
 # [Project Name]
 
-**Status:** [Active / On Hold / Completed / Killed]
-**Owner:** [PM or team responsible]
+**Status:** [Active / At Risk / On Hold / Completed / Killed]
+**Owner:** [Directly responsible person]
 **Started:** YYYY-MM-DD
-**Target:** [Key milestone or ship date, if known]
+**Target date:** [Milestone or ship date]
+**Related objective:** [Which product priority this project serves]
 
-## Overview
+## Why This Exists
 
-[2-3 sentences. What is this project, why does it exist, and what does success look like? Write for someone encountering this project for the first time.]
+[2-4 sentences. Problem, target user/customer, expected outcome. If this project disappeared tomorrow, what business/user pain stays unsolved?]
+
+## Success Definition
+
+- Launch success: [What must be true on ship day]
+- Outcome success: [Metric movement + timeframe]
+- Failure condition: [What result means this bet did not work]
 
 ## Current State
 
-- [What's been done]
-- [What's in progress]
-- [What's blocked or at risk]
+- Done: [Meaningful progress]
+- In progress: [Current focus]
+- Blocked/risk: [Concrete blocker and owner]
 
-*Update this section each session where the project is discussed.*
+## Scope
 
-## Key Decisions
+**In scope**
+- [Item]
+- [Item]
 
-- [Reference decision log entries: `context/decisions/YYYY-MM-DD-slug.md`]
-- [Or inline brief decisions that don't warrant a full log entry]
+**Out of scope**
+- [Item]
+- [Item]
 
-## Stakeholders
+## Decision Links
 
-- [Who cares about this project and what they care about — reference stakeholder files]
+- [Decision title](../decisions/YYYY-MM-DD-slug.md) - [1-line impact]
+- [Decision title](../decisions/YYYY-MM-DD-slug.md) - [1-line impact]
+
+## Stakeholder Links
+
+- [Stakeholder name](../stakeholders/name.md) - [What they care about]
+- [Stakeholder name](../stakeholders/name.md) - [What they care about]
 
 ## Open Questions
 
-- [Things that need to be resolved — remove as they're answered]
+- [Question] - Owner: [Name] - Due: YYYY-MM-DD
+- [Question] - Owner: [Name] - Due: YYYY-MM-DD
+
+## Next Checkpoint
+
+- Date: YYYY-MM-DD
+- What must be decided by then: [Decision or go/no-go condition]
 
 ---
 
-*This file is a living snapshot. Keep it current — other skills (meeting prep, PRD draft, stakeholder updates) read it for context.*
+*Treat this as a live operating doc, not a launch artifact. Update after real changes, not on a calendar.*
