@@ -14,11 +14,22 @@ AI assistants are only as good as the context you give them. Most PMs start ever
 
 One command creates a structured workspace that persists across sessions. Your AI assistant gets your product context, stakeholder map, decision history, and reusable PM skills from the first prompt. The more you use it, the smarter it gets.
 
+## Philosophy
+
+Context compounds, templates don't. Skills are the new features.
+
+Generic AI chat is broad but shallow: it can answer almost anything, but it rarely knows enough about your actual work to make sharp calls. pming flips that by giving the model structured, persistent context about your product, org, decisions, and constraints.
+
+Then it adds opinionated skills with clear workflows. Instead of "give me a PRD" and hoping for the best, you trigger a repeatable process that uses your context, asks the right questions, and outputs artifacts you can ship to real stakeholders.
+
+The result is leverage that improves over time. Better context makes skills better. Better skill outputs enrich your context. That loop is the product.
+
 ## What You Get
 
 ```
 your-workspace/
 ├── CLAUDE.md              # AI assistant operating manual
+├── .gitignore             # Keeps session memory private by default
 ├── USER.md                # Your profile — role, preferences, working style
 ├── context/
 │   ├── product.md         # Product overview, metrics, priorities
@@ -26,8 +37,7 @@ your-workspace/
 │   ├── projects/          # Active projects with status tracking
 │   └── decisions/         # Decision log with reasoning
 ├── memory/
-│   ├── long-term.md       # Insights that compound across sessions
-│   └── YYYY-MM-DD.md      # Daily session notes (auto-created)
+│   └── long-term.md       # Insights that compound across sessions
 ├── skills/                # 6 PM workflow skills
 │   ├── meeting-prep/      # Context-aware meeting briefs
 │   ├── decision-log/      # Structured decision capture
@@ -65,9 +75,14 @@ Node.js 18+
 
 Your AI assistant becomes a genuine thinking partner — not because it's smarter, but because it *remembers*.
 
-## Philosophy
+## How Skills Work
 
-Skills are the new features. Context is the new moat. The best AI assistant isn't the one with the most capabilities — it's the one that knows your product, your team, and your history well enough to have an opinion worth hearing.
+1. You ask in natural language ("prep me for this exec meeting", "log this decision", "draft a PRD for this initiative").
+2. The assistant maps your request to a skill and reads that skill's `SKILL.md`.
+3. It follows the workflow in that file, pulling from your workspace context.
+4. It produces a concrete artifact (brief, decision log, draft, update) and updates context where appropriate.
+
+This creates a mesh, not a menu. Each skill output becomes structured context that strengthens the next skill run.
 
 ## License
 
