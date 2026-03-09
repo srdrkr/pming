@@ -1,6 +1,6 @@
 {
   "name": "pm-brain",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "AI-powered PM workspace scaffold",
   "type": "module",
   "bin": {
