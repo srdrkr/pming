@@ -3,6 +3,7 @@
 import { createRequire } from 'node:module';
 import { fileURLToPath } from 'node:url';
 import { dirname, join, resolve } from 'node:path';
+import { realpathSync } from 'node:fs';
 import { readdir } from 'node:fs/promises';
 import fse from 'fs-extra';
 import Enquirer from 'enquirer';
@@ -387,7 +388,14 @@ export {
   showVersion,
 };
 
-if (process.argv[1] &&
-  resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
-  run();
+if (process.argv[1]) {
+  try {
+    const arg1Real = realpathSync(resolve(process.argv[1]));
+    const selfReal = fileURLToPath(import.meta.url);
+    if (arg1Real === selfReal) {
+      run();
+    }
+  } catch {
+    // realpathSync can fail if the path doesn't exist; skip silently
+  }
 }
