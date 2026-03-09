@@ -48,9 +48,11 @@ export async function init() {
   console.log('   memory/            \u2014 Where context compounds over time');
   console.log('   templates/         \u2014 Starting points for new files');
   console.log();
+  console.log(`\uD83D\uDCC2 Location: ${targetDir}`);
+  console.log();
   console.log('\uD83D\uDE80 What to do next:');
   console.log();
-  console.log(`   Open this folder in ${toolName} and start a conversation.`);
+  console.log(`   Open that folder in ${toolName} and start a conversation.`);
   console.log('   Try one of these:');
   console.log();
   console.log('   "Tell me what you know about me and my product"');
