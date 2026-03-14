@@ -1,0 +1,11 @@
+{
+  "name": "pming",
+  "description": "AI-powered PM workspace — structured context, skills, and memory that make your AI assistant a real thinking partner",
+  "version": "0.1.0",
+  "author": {
+    "name": "Product Shadow",
+    "url": "https://productshadow.app"
+  },
+  "repository": "https://github.com/srdrkr/pming",
+  "license": "MIT"
+}
