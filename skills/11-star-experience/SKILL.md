@@ -35,14 +35,22 @@ One level at a time. Each step must be a meaningful jump, not a minor feature in
 
 Name failure floors clearly. This exposes quality cliffs and churn triggers.
 
-### 4. Convert ambition to near-term action
+### 4. Ambient checkpoint
+
+**Ambient checkpoint.** Review conversation so far for stakeholder intel, decisions, commitments, or project state changes. Capture per CLAUDE.md §Ambient Behaviors. Acknowledge anything captured in one line.
+
+### 5. Convert ambition to near-term action
 
 Identify:
 - next star to target
 - smallest move that advances toward it
 - biggest barrier to reaching it
 
-### 5. Run revision protocol (quarterly)
+### 6. Ambient checkpoint
+
+**Ambient checkpoint.** Review conversation so far for stakeholder intel, decisions, commitments, or project state changes. Capture per CLAUDE.md §Ambient Behaviors. Acknowledge anything captured in one line.
+
+### 7. Run revision protocol (quarterly)
 
 If ladder already exists:
 - compare prior 5-star baseline vs current reality

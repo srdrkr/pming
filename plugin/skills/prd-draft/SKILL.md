@@ -40,7 +40,11 @@ At most two high-value questions:
 
 Optional third only if critical constraints are unknown.
 
-### 3. Draft for two audiences
+### 3. Ambient checkpoint
+
+**Ambient checkpoint.** Review conversation so far for stakeholder intel, decisions, commitments, or project state changes. Capture per CLAUDE.md §Ambient Behaviors. Acknowledge anything captured in one line.
+
+### 4. Draft for two audiences
 
 Every requirement must work for:
 - humans aligning on scope and tradeoffs
@@ -48,16 +52,20 @@ Every requirement must work for:
 
 Requirements must be specific, testable, and unambiguous.
 
-### 4. Mark unknowns explicitly
+### 5. Mark unknowns explicitly
 
 Use `[NEEDS INPUT: ...]` for genuine gaps.
 No filler prose pretending certainty.
 
-### 5. Refine in conversation
+### 6. Refine in conversation
 
-Walk through unresolved markers one by one and update the draft in-session.
+Walk through unresolved markers one by one and update the draft in-session. After resolving each open marker, check for ambient captures before proceeding to the next.
 
-### 6. Enrich mesh
+### 7. Ambient checkpoint
+
+**Ambient checkpoint.** Review conversation so far for stakeholder intel, decisions, commitments, or project state changes. Capture per CLAUDE.md §Ambient Behaviors. Acknowledge anything captured in one line.
+
+### 8. Enrich mesh
 
 After draft completion:
 - log any newly made decisions
