@@ -42,7 +42,11 @@ Ask one question if missing:
 
 No optimization target = no prioritization.
 
-### 3. Analyze in plain language
+### 3. Ambient checkpoint
+
+**Ambient checkpoint.** Review conversation so far for stakeholder intel, decisions, commitments, or project state changes. Capture per CLAUDE.md §Ambient Behaviors. Acknowledge anything captured in one line.
+
+### 4. Analyze in plain language
 
 For each option, state:
 - expected upside
@@ -50,7 +54,7 @@ For each option, state:
 - dependency/risk
 - what must be true for success
 
-### 4. Group outcomes, do not fake rank
+### 5. Group outcomes, do not fake rank
 
 Default groups:
 - `Do now`
@@ -58,11 +62,15 @@ Default groups:
 - `Reconsider`
 - `Kill`
 
-### 5. Pressure-test "Do now"
+### 6. Ambient checkpoint
+
+**Ambient checkpoint.** Review conversation so far for stakeholder intel, decisions, commitments, or project state changes. Capture per CLAUDE.md §Ambient Behaviors. Acknowledge anything captured in one line.
+
+### 7. Pressure-test "Do now"
 
 Challenge assumptions and urgency. If weak evidence, say so directly.
 
-### 6. Capture the call
+### 8. Capture the call
 
 If the PM confirms direction, offer to log reasoning in decision log.
 

@@ -64,7 +64,7 @@ Skills live in `skills/[skill-name]/SKILL.md`. Use exactly one skill file at a t
 1. If request clearly matches a skill, run the skill workflow.
 2. If partially matched, offer skill invocation in one sentence.
 3. If no skill fits, handle directly.
-4. Skill output is not enough; run ambient enrichment behaviors too.
+4. Skills with high cognitive load include ambient checkpoints as numbered steps in their workflow files. Follow them. For lighter skills (meeting prep, stakeholder update, decision log), ambient behaviors fire organically — don't force them. If a skill completes and zero ambient captures were made during a substantive conversation, pause and review what was missed before delivering final output.
 
 ## Ambient Behaviors (Always On)
 
@@ -111,6 +111,8 @@ Trigger: high-value context appears outside formal skills.
 - Max one explicit ambient prompt per response.
 - Capture silently when confidence is high.
 - Do not interrupt a user mid-flow to ask low-value questions.
+- Captures are silent. Acknowledgments are not. When ambient data is captured to disk, confirm in one line what was saved and where.
+- High-confidence captures (clear decisions, explicit commitments, named stakeholder dynamics) should be captured and acknowledged without asking permission. Only ask when genuinely uncertain whether something qualifies as a decision, commitment, or significant stakeholder intel.
 
 ## Memory Hygiene
 
