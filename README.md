@@ -1,3 +1,6 @@
+> [!NOTE]
+> **Archived predecessor.** pming was superseded by [Phronesis](https://craftphronesis.com). The current package is available on [npm](https://www.npmjs.com/package/phronesis).
+
 # pming
 
 **Your PM brain, scaffolded.** Go from zero to a context-rich AI workspace in under 5 minutes.
